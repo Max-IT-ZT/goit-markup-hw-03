@@ -344,7 +344,7 @@ ol {
 }
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
   margin-bottom: 72px;
   flex-wrap: wrap;
   row-gap: 48px;
