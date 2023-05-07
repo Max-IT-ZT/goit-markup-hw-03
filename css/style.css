@@ -6,7 +6,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* width: 1440px; */
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+}
+.section {
+  padding: 120px 0px;
 }
 /* Скидання дефолтних стилів */
 h1,
@@ -78,23 +86,12 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 15px;
-  /* padding-left: 156px;
-  padding-right: 156px; */
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center; */
-}
+/*=========== HEADER ==========*/
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .header-nav {
@@ -120,11 +117,8 @@ ol {
   display: flex;
   gap: 40px;
 }
-/* .header-menu-item {
-  padding: 24px 0px;
-} */
+
 .header-nav-link {
-  /* letter-spacing: 0.02em; */
   color: var(--text-color);
   font-weight: 500;
   display: flex;
@@ -137,6 +131,7 @@ ol {
 }
 .header-contact {
   font-style: normal;
+  margin-left: auto;
 }
 .header-contact-list {
   color: var(--text-color);
@@ -149,15 +144,11 @@ ol {
 .header-contact-link:focus {
   color: var(--a-active-color);
 }
-
+/*=========== HERO ==========*/
 .hero {
   background-color: var(--background-color);
   padding: 188px 0px;
 }
-/* .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-} */
 .hero-title {
   max-width: 496px;
   text-align: center;
@@ -193,9 +184,7 @@ ol {
 .hero-btn:focus {
   background-color: var(--btn-active-color);
 }
-.section {
-  padding: 120px 0px;
-}
+/*=========== ADVANTAGES ==========*/
 .advantages {
   padding-bottom: 0px;
   padding: 120px 0px;
@@ -210,13 +199,10 @@ ol {
 }
 .advantages-item {
   flex-basis: calc((100% - 24px * 3) / 4);
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
   gap: 8px;
 }
+/*=========== SUBTITLE ==========*/
 .advantages-subtitle,
 .team-subtitle,
 .work-subtitle,
@@ -226,9 +212,7 @@ ol {
   line-height: 1.2;
   color: var(--text-color);
 }
-/* .portfolio-container {
-  padding-bottom: 120px;
-} */
+/*=========== WORK ==========*/
 .work-list {
   display: flex;
   gap: 24px;
@@ -236,6 +220,7 @@ ol {
 .work-item {
   flex-basis: calc((100% - 24px * 2)) / 3;
 }
+/*=========== TITLE ==========*/
 .work-title,
 .team-title {
   text-align: center;
@@ -246,10 +231,7 @@ ol {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-/* .team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
+/*=========== TEAM ==========*/
 .team-list {
   display: flex;
   gap: 24px;
@@ -272,19 +254,12 @@ ol {
   text-align: center;
 }
 .team-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 32px 16px;
 }
 .container-team-text {
   justify-content: center;
 }
-/* .footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-} */
+/*=========== FOOTER ==========*/
 .footer {
   background-color: var(--background-color);
   padding: 100px 0px;
@@ -307,7 +282,7 @@ ol {
   color: var(--footer-text-color);
   width: 264px;
 }
-
+/*=========== PORTFOLIO MENU ==========*/
 .menu-list {
   display: flex;
   justify-content: center;
@@ -339,6 +314,7 @@ ol {
   color: var(--btn-active-color-text);
   border: 1px solid transparent;
 }
+/*=========== PORTFOLIO ==========*/
 .portfolio {
   padding: 96px 0 120px;
 }
