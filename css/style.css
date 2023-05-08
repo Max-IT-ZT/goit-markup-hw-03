@@ -1,3 +1,20 @@
+/* Відносні стилі */
+:root {
+  --background-color: #2e2f42;
+  --logo-color-footer: #f4f4fd;
+  --logo-color-web: #4d5ae5;
+  --hero-title-color: #ffffff;
+  --text-color: #2e2f42;
+  --text-color-main: #434455;
+  --btn-color: #4d5ae5;
+  --btn-active-color: #404bbf;
+  --btn-active-color-text: #ffffff;
+  --a-active-color: #404bbf;
+  --footer-text-color: #f4f4fd;
+  --portfolio-btn-color: #f4f4fd;
+  --portfolio-btn-text: #4d5ae5;
+  --border-btn: #e7e9fc;
+}
 /*Загальний стиль*/
 body {
   font-family: 'Roboto', sans-serif;
@@ -80,7 +97,6 @@ ol {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -155,10 +171,8 @@ ol {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  /* letter-spacing: 0.02em; */
   color: var(--hero-title-color);
-  margin-left: 316px;
-  margin-right: 316px;
+  margin: 0 auto 48px auto;
 }
 .hero-btn {
   display: block;
@@ -178,7 +192,6 @@ ol {
   gap: 10px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 48px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
