@@ -72,23 +72,6 @@ ol {
   text-decoration: none;
   color: inherit;
 }
-/* Відносні стилі */
-:root {
-  --background-color: #2e2f42;
-  --logo-color-footer: #f4f4fd;
-  --logo-color-web: #4d5ae5;
-  --hero-title-color: #ffffff;
-  --text-color: #2e2f42;
-  --text-color-main: #434455;
-  --btn-color: #4d5ae5;
-  --btn-active-color: #404bbf;
-  --btn-active-color-text: #ffffff;
-  --a-active-color: #404bbf;
-  --footer-text-color: #f4f4fd;
-  --portfolio-btn-color: #f4f4fd;
-  --portfolio-btn-text: #4d5ae5;
-  --border-btn: #e7e9fc;
-}
 /* Приховані заголовки */
 .visually-hidden {
   position: absolute;
